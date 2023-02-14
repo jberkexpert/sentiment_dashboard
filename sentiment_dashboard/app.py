@@ -31,7 +31,7 @@ if csv_file:
 
 
     try:
-        excel_file = "train_F3WbcTw_Output.xlsx"
+        excel_file = "jberkexpert/sentiment_dashboard/tree/main/sentiment_dashboard/train_F3WbcTw_Output.xlsx"
         if excel_file is not None:
             if excel_file != None:
                 # Inject CSS with Markdown
