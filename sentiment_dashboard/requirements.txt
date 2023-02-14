@@ -1,0 +1,6 @@
+matplotlib
+expertai-nlapi
+pandas
+textblob
+nltk
+python-git
