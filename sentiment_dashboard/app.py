@@ -28,13 +28,12 @@ if csv_file:
     input_file = csv_file.name
     excel_file = "{}_Output.xlsx".format(input_file.strip(".csv"))
     show_uploader = False
-    analyzer = SentimentAnalyzer()
 
 
     try:
-        if analyzer.analyze_csv(input_file, excel_file):
-            excel_file = "train_F3WbcTw_Output.xlsx"
-            if excel_file is not None:
+        excel_file = "train_F3WbcTw_Output.xlsx"
+        if excel_file is not None:
+            if excel_file != None:
                 # Inject CSS with Markdown
                 st.markdown(hide_table_row_index, unsafe_allow_html=True)
 
