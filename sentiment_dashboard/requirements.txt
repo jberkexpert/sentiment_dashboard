@@ -4,3 +4,4 @@ pandas
 textblob
 nltk
 python-git
+plotly
