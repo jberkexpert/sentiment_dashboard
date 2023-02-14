@@ -33,6 +33,7 @@ if csv_file:
 
     try:
         if analyzer.analyze_csv(input_file, excel_file):
+            excel_file = "train_F3WbcTw_Output.xlsx"
             if excel_file is not None:
                 # Inject CSS with Markdown
                 st.markdown(hide_table_row_index, unsafe_allow_html=True)
